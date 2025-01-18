@@ -60,7 +60,7 @@ class Fibonacci:
             return self.toplam
 # Kullanım
 try:
-    obj = Fibonacci(9)  # Hata yükseltir
+    obj = Fibonacci(9)  
     for i in obj:
         print(i)
 except ValueError as e:
