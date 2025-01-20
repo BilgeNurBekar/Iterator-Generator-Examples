@@ -30,7 +30,7 @@ class InfiniteGenerator:
 
 
 try:
-    infinitePositive = InfiniteGenerator(10)
+    infinitePositive = InfiniteGenerator(100000)
     for i in infinitePositive.genInfinite():
         print(i)
 except Exception as e:
